@@ -1,0 +1,1124 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+}
+
+.block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url("Zombie.gif");
+    background-size: cover;
+    margin-top: 425px;
+}
+
+.blockhid {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url("Zombie.gif");
+    background-size: cover;
+    margin-top: 425px;
+    visibility: hidden;
+}
+
+.block2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url("Zombie.gif");
+    background-size: cover;
+    margin-top: 425px;
+}
+
+.block3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url("Zombie.gif");
+    background-size: cover;
+    margin-top: 425px;
+}
+
+
+.boy {
+    position: absolute;
+    height: 200px;
+    margin-top: 435px;
+    margin-left: 10px;
+}
+
+.score {
+    position: absolute;
+    font-family: "Arial";
+    font-weight: 500;
+    font-size: 90px;
+    margin-left: 20px;
+    color: white;
+}
+
+.gameover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: whitesmoke;
+    visibility: hidden;
+}
+
+.d1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: red;
+}
+
+.d2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+}
+
+.savetheworld {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 900;
+}
+
+.endscore {
+    font-family: 'Times New Roman';
+    font-size: 80px;
+}
+
+.tryagain {
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.startpage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("ZombieStartPage6.jpg");
+}
+
+.zombieinvasion {
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.playbutton {
+    height: 60px;
+    width: 240px;
+    border-radius: 30px;
+    background-image: url("PlayButton.jpg");
+    background-size: cover;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.playbutton2 {
+    height: 60px;
+    width: 240px;
+    border-radius: 30px;
+    background-image: url("PlayButton.jpg");
+    background-size: cover;
+    background-position-y: center;
+    cursor: pointer;
+    margin-top: 560px;
+    margin-left: 535px;
+}
+
+.instructions {
+    height: 60px;
+    width: 240px;
+    border-radius: 30px;
+    background-image: url("InstructionsButton.png");
+    background-size: cover;
+    background-position-y: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.d18 {
+    margin-top: -318px;
+    margin-left: 40px;
+}
+
+.instructions2 {
+    height: 60px;
+    width: 240px;
+    border-radius: 30px;
+    background-image: url("InstructionsButton.png");
+    background-size: cover;
+    background-position-y: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.d3 {
+    margin-left: -550px;
+    margin-top: -60px;
+}
+
+.story {
+    height: 60px;
+    width: 240px;
+    border-radius: 30px;
+    background-image: url("StoryButton.jpg");
+    background-size: cover;
+    background-position-y: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.d19 {
+    margin-top: -62px;
+    margin-left: 1055px;
+}
+
+.story2 {
+    height: 58px;
+    width: 240px;
+    border-radius: 30px;
+    background-image: url("HomeRed.png");
+    background-size: cover;
+    background-position-y: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.d4 {
+    margin-left: 550px;
+    margin-top: -62px;
+}
+
+.level1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Level1Start.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.d5 {
+    font-size: 90px;
+    color: red;
+    font-family: "Arial";
+}
+
+
+.d6 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d7 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d8 {
+    position: absolute;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Chiller";
+    margin-left: 1200px;
+    margin-top: 620px;
+}
+
+.startLevel1 {
+    width: 150px;
+    height: 150px;
+    background-image: url("StartA.png");
+    background-size: cover;
+    font-weight: bold;
+    border-radius: 1000px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.home {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.home2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.home3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.home4 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    margin-top: 9px;
+    margin-left: 1265px;
+    visibility: hidden;
+}
+
+.homebutton {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: 8px;
+    margin-left: 1270px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.homebutton2 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: -590px;
+    margin-left: 1265px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.homebutton3 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: -590px;
+    margin-left: 1260px;
+    cursor: pointer;
+}
+
+.homebutton4 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: 7px;
+    margin-left: 1265px;
+    cursor: pointer;
+
+}
+
+.homebutton6 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: -590px;
+    margin-left: 1260px;
+    cursor: pointer;
+}
+
+.homebutton7 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: 7px;
+    margin-left: 1265px;
+    cursor: pointer;
+}
+
+.homebutton8 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: 5px;
+    margin-left: 1265px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.homebutton9 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("HomeButton1.jpg");
+    margin-top: -360px;
+    margin-left: 1265px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.homebutton10 {
+   position: absolute;
+   width: 54px;
+   height: 54px;
+   border-radius: 1000px;
+   background-image: url("HomeButton1.jpg");
+   cursor: pointer;
+}
+
+.sound {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.sound2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.sound3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.sound4 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.soundbutton {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("SoundButton.jpg");
+    background-size: cover;
+    margin-top: 8px;
+    margin-left: 1210px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.soundbutton4 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("SoundButton.jpg");
+    margin-top: 8px;
+    margin-left: 1205px;
+    cursor: pointer;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.soundbutton5 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("SoundButton.jpg");
+    margin-top: 8px;
+    margin-left: 1205px;
+    cursor: pointer;
+    visibility: hidden;
+    background-size: cover;
+}
+
+.instructionpage {
+    position: absolute;
+    width: 1250px;
+    height: 600px;
+    margin-top: 35px;
+    margin-left: 40px;
+    background-image: url("InstructionsBackground8.png");
+    background-size: cover;
+    visibility: hidden;
+}
+
+.d9 {
+    margin-top: 40px;
+    margin-left: 5px;
+    font-family: "Chiller";
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.closeinstructions {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    background-image: url("CloseButton.jpg");
+    border-radius: 1000px;
+    margin-top: -539px;
+    margin-left: 1230px;
+    cursor: pointer;
+}
+
+.closeinstructions2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    background-image: url("CloseButton.jpg");
+    border-radius: 1000px;
+    margin-top: -608px;
+    margin-left: 1231px;
+    cursor: pointer;
+}
+
+
+.boarddiv {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+
+.boarddiv2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+
+.boarddiv3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+
+.board {
+    position: absolute;
+    height: 500px;
+    margin-top: 230px;
+    margin-left: 930px;
+}
+
+.board2 {
+    position: absolute;
+    height: 400px;
+    margin-top: 230px;
+    margin-left: 930px;
+}
+
+.board3 {
+    position: absolute;
+    height: 300px;
+    margin-top: 390px;
+    margin-left: 900px;
+}
+
+.level1end {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Level1End.jpg");
+    background-size: cover;
+    visibility: hidden;
+}
+
+.level2end {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Level2End.jpg");
+    background-size: cover;
+    visibility: hidden;
+}
+
+.level3end {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Level3End.jpg");
+    background-size: cover;
+    visibility: hidden;
+}
+
+
+.Level2 {
+    position: absolute;
+    width: 230px;
+    height: 80px;
+    margin-top: 500px;
+    margin-left: 515px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
+.Level3 {
+    position: absolute;
+    width: 230px;
+    height: 80px;
+    margin-top: 500px;
+    margin-left: 515px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
+.NextStage {
+    position: absolute;
+    width: 370px;
+    height: 120px;
+    margin-top: 500px;
+    margin-left: 480px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
+.storyvideo {
+    position: absolute;
+    width: 1250px;
+    height: 600px;
+    margin-top: 35px;
+    margin-left: 40px;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.storyvideo2 {
+    position: absolute;
+    width: 1250px;
+    height: 600px;
+    margin-top: 35px;
+    margin-left: 40px;
+    background-size: cover;
+    visibility: hidden;
+}
+
+
+.closestory {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-image: url("CloseButton.jpg");
+    border-radius: 1000px;
+    margin-top: -15px;
+    margin-left: 1200px;
+    cursor: pointer;
+}
+
+.closestory2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-image: url("CloseButton.jpg");
+    border-radius: 1000px;
+    margin-top: -24px;
+    margin-left: 1230px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video1 {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: rgba(0, 0, 0, .2) 0 0 30px
+}
+
+.tap {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7985FF;
+    color: #fff;
+    line-height: 1;
+    margin-top: -9px;
+    margin-left: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all .25s ease-out
+}
+
+.tap:hover {
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, .3) 0 0 30px
+}
+
+.tap:active {
+    transform: scale(0.9)
+}
+
+.video1 {
+    position: absolute;
+    width: 1250px;
+    height: 550px;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.d10 {
+    font-size: 90px;
+    color: red;
+    font-family: "Arial";
+}
+
+
+.d11 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d12 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d13 {
+    position: absolute;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Chiller";
+    margin-left: 1200px;
+    margin-top: 620px;
+}
+
+.startLevel2 {
+    width: 120px;
+    height: 120px;
+    background-image: url("StartB.png");
+    background-size: cover;
+    font-weight: bold;
+    border-radius: 1000px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.startLevel4 {
+    width: 120px;
+    height: 120px;
+    background-image: url("StartD.png");
+    background-size: cover;
+    font-weight: bold;
+    border-radius: 1000px;
+    cursor: pointer;
+    border-style: none;
+}
+
+
+.level2start {
+    position: absolute;
+    background-size: cover;
+    background-image: url("DesertBackground.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.Desert {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("DesertBackground.jpg");
+    visibility: hidden;
+    overflow-x: hidden;
+}
+
+.level3start {
+    position: absolute;
+    background-size: cover;
+    background-image: url("CityBackground.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.stage2start {
+    position: absolute;
+    background-size: cover;
+    background-image: url("SkyBG1.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.d14 {
+    font-size: 90px;
+    color: red;
+    font-family: "Arial";
+}
+
+
+.d15 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d16 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d17 {
+    position: absolute;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Chiller";
+    margin-left: 1200px;
+    margin-top: 620px;
+}
+
+.d20 {
+    font-size: 90px;
+    color: red;
+    font-family: "Arial";
+}
+
+
+.d21 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d22 {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family: "Chiller";
+}
+
+.d23 {
+    position: absolute;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Chiller";
+    margin-left: 1200px;
+    margin-top: 620px;
+}
+
+.startLevel3 {
+    width: 120px;
+    height: 120px;
+    background-image: url("StartC.png");
+    background-size: cover;
+    font-weight: bold;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.City {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("CityBackground.jpg");
+    visibility: hidden;
+    overflow-x: hidden;
+}
+
+.stage2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Stage2.jpg");
+    background-size: cover;
+    visibility: hidden;
+}
+
+.stage2play{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("SkyBG1.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+
+.block4{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-image: url("UFO2.gif");
+    background-size: cover;
+    margin-top: 190px;
+}
+
+.block5{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-image: url("UFO2.gif");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.block6{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-image: url("UFO2.gif");
+    background-size: cover;
+    margin-top: 380px;
+}
+
+.boy4{
+    position: absolute;
+    height: 110px;
+    margin-top: 200px;
+}
+
+.score4{
+    position: absolute;
+    font-size: 50px;
+    font-family: "Arial";
+    font-weight: 500;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.gameover4{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Arial";
+    visibility: hidden;
+    color: red;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.tryagain4{
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    font-size: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.boarddiv4{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+
+.HQ1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 880px;
+}
+
+.End{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(EndIMG1.jpg);
+    background-size: cover;
+    visibility: hidden;
+}
+
+.rebutton{
+    width: 77px;
+    height: 77px;
+    border-radius: 1000px;
+    margin-top: 348px;
+    margin-left: 814px;
+    background: none;
+    cursor: pointer;
+}
+
+.powerbutton{
+    width: 78px;
+    height: 78px;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-left: 46px;
+    background: none;
+}
+
+.sharebutton{
+    width: 220px;
+    height: 74px;
+    margin-left: 45px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.black{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    visibility: hidden;
+}
+
+.HQD{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+}
+
+.hqd4to{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.tip{
+    color: red;
+}
+
+.soundon{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+.soundon2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+.soundon3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+.soundOnButton{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("SoundOnButton.jpg");
+    background-size: cover;
+    margin-top: 8px;
+    margin-left: 1210px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.soundOnButton2{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("SoundOnButton.jpg");
+    background-size: cover;
+    margin-top: 8px;
+    margin-left: 1205px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.soundOnButton3{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 1000px;
+    background-image: url("SoundOnButton.jpg");
+    background-size: cover;
+    margin-top: 8px;
+    margin-left: 1205px;
+    cursor: pointer;
+    visibility: hidden;
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Zombie Invasion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="ico.png" />
+</head>
+
+<body class="body" onkeyup="keyCheck(event);">
+
+  <div class="background" id="background">
+    <div class="score" id="score"> 0 </div>
+    <img src="Run (1).png" class="boy" id="boy" />
+  </div>
+
+  <div class="gameover" id="gameover">
+    <div class="d1"> Game Over! </div><br />
+    <div class="d2"> Your Score </div>
+    <div class="endscore" id="endScore"> 0 </div><br />
+    <button class="tryagain" onclick="re();"> Try Again </button>
+  </div>
+
+  <div class="startpage" id="startpage">
+    <div class="zombieinvasion">Zombie Invasion</div>
+    <div class="savetheworld">(Save The World)--------</div> <br/>
+    <button class="playbutton" onclick="level1();"> </button>
+    <div class="d3"><button class="instructions" onclick="insrtuctionPage();"></button></div>
+    <div class="d4"><button class="story" onclick="storyvideo();"></button></div>
+  </div>
+
+  <div class="home" id="home">
+    <button class="homebutton" id="homebutton" onclick="re();"></button>
+  </div>
+
+  <div class="sound" id="sound">
+    <button class="soundbutton" id="soundbutton" onclick="soundPp()"></button>
+  </div>
+
+  <div class="soundon" id="soundon">
+    <button class="soundOnButton" id="soundOnButton1" onclick="soundOn();"></button>
+  </div>
+
+  <div class="level1" id="level1">
+    <div class="d5"> Level 1 </div><br />
+    <div class="d6"> Try To Escape From This Forest &</div>
+    <div class="d7"> Find The Board </div>
+    <div class="d8"> * Tip-Score 1000+ </div><br /><br />
+    <button class="startLevel1" onclick="keycheck();"></button>
+    
+  </div>
+
+  <div class="instructionpage" id="instructionpage">
+    <div class="d9">I. This game consists of two stages and the
+      first stage contains 3 levels. There is only one level
+      in the second stage. In the first stage you &nbsp;&nbsp;
+      have to find
+      the plane and after completing all 3
+      levels you will find it.<br /><br />
+      II. The basic task of the first stage is to avoid obstacles.
+      You can use '' SPACE KEY '' to avoid obstacles. <br /><br />
+      III. Once you complete the first level of the first stage,
+      you will automatically be taken to the second level,
+      after completing the second &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; level,
+      you will automatically be taken to the third level
+      , and after completing the third level,
+      you will automatically be taken to the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      second stage of the game.<br /><br />
+      IV. In any level if you die you have to start the stage from
+      the beginning. <br /><br />
+      V. Pay attention to the tips given in the game. <br /><br />
+      VI. Instructions related to the second stage will be
+      given after you move to the second stage.
+    </div>
+    <button class="closeinstructions" onclick="re()"></button>
+  </div>
+
+  <div class="boarddiv" id="boarddiv">
+    <img src="Board.png" class="board" id="board" />
+  </div>
+
+  <div class="level1end" id="level1end">
+    <button class="Level2" id="level2" onclick="level2start();"></button>
+    <button class="homebutton" id="homebutton1" onclick="re();"></button>
+  </div>
+
+  <div class="level2start" id="level2start">
+    <div class="d10"> Level 2 </div><br />
+    <div class="d11"> Try To Escape From This Desert &</div>
+    <div class="d12"> Find The Board </div>
+    <div class="d13"> * Tip-Score 1000+ </div><br /><br />
+    <button class="startLevel2" onclick="keycheck();"></button>
+    <button class="homebutton3" id="homebutton3" onclick="re();"></button>
+  </div>
+
+  <div class="Desert" id="Desert">
+    <div class="score" id="score2"> 0 </div>
+    <img src="Run (1).png" class="boy" id="boy2" />
+  </div>
+
+  <div class="gameover" id="gameover2">
+    <div class="d1"> Game Over! </div><br />
+    <div class="d2"> Your Score </div>
+    <div class="endscore" id="endScore2"> 0 </div><br />
+    <button class="tryagain" onclick="re();"> Try Again </button>
+  </div>
+
+  <div class="home2" id="home2">
+    <button class="homebutton4" id="homebutton4" onclick="re();"></button>
+  </div>
+
+  <div class="sound2" id="sound2">
+    <button class="soundbutton4" id="soundbutton4" onclick="soundPp()"></button>
+  </div>
+
+  <div class="soundon2" id="soundon2">
+    <button class="soundOnButton2" id="soundOnButton2" onclick="soundOn();"></button>
+  </div>
+
+  <div class="boarddiv2" id="boarddiv2">
+    <img src="CityBoard.png" class="board2" id="board2" />
+  </div>
+
+  <div class="level2end" id="level2end">
+    <button class="Level3" id="level3" onclick="level3start();"></button>
+    <button class="homebutton" id="homebutton5" onclick="re();"></button>
+  </div>
+
+  <div class="level3start" id="level3start">
+    <div class="d14"> Level 3 </div><br />
+    <div class="d15"> Try To Avoid Zombie In This City &</div>
+    <div class="d16"> Find The Plane </div>
+    <div class="d17"> * Tip-Score 1000+ </div><br /><br />
+    <button class="startLevel3" onclick="keycheck();"></button>
+    <button class="homebutton6" id="homebutton6" onclick="re();"></button>
+  </div>
+
+  <div class="City" id="City">
+    <div class="score" id="score3"> 0 </div>
+    <img src="Run (1).png" class="boy" id="boy3" />
+  </div>
+
+  <div class="gameover" id="gameover3">
+    <div class="d1"> Game Over! </div><br />
+    <div class="d2"> Your Score </div>
+    <div class="endscore" id="endScore3"> 0 </div><br />
+    <button class="tryagain" onclick="re();"> Try Again </button>
+  </div>
+
+  <div class="home3" id="home3">
+    <button class="homebutton7" id="homebutton7" onclick="re();"></button>
+  </div>
+
+  <div class="sound3" id="sound3">
+    <button class="soundbutton5" id="soundbutton5" onclick="soundPp()"></button>
+  </div>
+
+  <div class="soundon3" id="soundon3">
+    <button class="soundOnButton3" id="soundOnButton3" onclick="soundOn();"></button>
+  </div>
+
+  <div class="boarddiv3" id="boarddiv3">
+    <img src="PlaneMeet.png" class="board3" id="board3" />
+  </div>
+
+  <div class="level3end" id="level3end">
+    <button class="NextStage" id="NextStage" onclick="secondStage();"></button>
+    <button class="homebutton8" id="homebutton8" onclick="re();"></button>
+  </div>
+
+  <div class="stage2" id="stage2">
+    <button class="playbutton2" onclick="stage2();"> </button>
+    <div class="d18"><button class="instructions2" onclick="insrtuctionPage2();"></button></div>
+    <div class="d19"><button class="story2" onclick="re();"></button></div>
+  </div>
+
+  <div class="storyvideo" id="storyvideo">
+    <button class="closestory" onclick="re()"></button>
+    <video id="player" preload="auto" height="169" class="video1">
+      <source src="StoryVideo.mp4">
+    </video>
+    <a id="play" class="tap" href="javascript:void(0);">PLAY VIDEO</a>
+  </div>
+
+  <div class="instructionpage" id="instructionpage2">
+    <div class="d9">I. You have only one level in this stage. 
+      What you have to do here is to destroy the zombie's aircraft
+      using the plane you found in the last &nbsp; &nbsp; level of
+      the first stage.<br /><br />
+      II. But since the plane you found has no bullets, 
+      you lost the chance to shoot and destroy 
+      the zombie's aircraft. <br /><br />
+      III. So the only thing you can do is to destroy the Zombing's HQ. 
+      Because you don't have bullets for it, 
+      the plane you're piloting hits it. &nbsp; &nbsp; &nbsp; After hitting the plane,
+      the headquarters will be destroyed.<br /><br />
+      IV. But before you find this HQ you'll encounter Zombie's 
+      aircraft on the way. You can't destroy them because you don't
+      have bullets. &nbsp; &nbsp;&nbsp;&nbsp; Don't bump into 
+      them and you won't be able to destroy the HQ.
+      <br /><br />
+      V. The up arrow key and down arrow key can be used 
+      to control the flight in the sky. After you destroy the zombie headquarters,
+      the world &nbsp; &nbsp; will be free of zombies and all the 
+      zombies will be restored to normal. 
+      The fate of the world is in your hands. Good luck!<br /><br />
+      <div class="tip">**. BUT YOU MUST HIT YOUR PLANE IN FRONT OF THE HEADQUARTER. OTHERWISE, &nbsp;&nbsp; 
+      THE HEADQUARTER WOtULD NOT BEEN DESTROYED.
+    </div>
+    </div>
+    <button class="closeinstructions2" id="closei2" onclick="divhidden2()"></button>
+  </div>
+
+  <div class="stage2start" id="stage2start">
+    <div class="d20"> Stage 2 </div><br />
+    <div class="d21"> Try To Avoid Zombie Air Crafts,</div>
+    <div class="d22"> Find The Headquarter & Destroy It !! </div>
+    <div class="d23"> * Tip-Score 2500+ </div><br /><br />
+    <button class="startLevel4" onclick="keycheck();"></button>
+    <button class="homebutton3" id="homebutton10" onclick="re();"></button>
+  </div>
+
+  <div class="stage2play" id="stage2play">
+    <div class="score4" id="score4"> 0 </div>
+    <img src="Fly (1).png" class="boy4" id="boy4" />
+  </div>
+
+  <div class="gameover4" id="gameover4">
+    <div>Game Over</div>
+    <div>Your Score</div>
+    <div id="endScore4"> 0 </div>
+    <button class="tryagain4" onclick="re();"> Try Again </button>
+ </div>
+
+ <div class="home4" id="home4">
+   <button class="homebutton10" id="homebutton10" onclick="re();"></button>
+ </div>
+
+<div class="boarddiv4" id="boarddiv4">
+  <img src="ZombieHQ.png" class="HQ1" id="HQ1"/>
+</div>
+
+<div class="HQD" id="HQD">
+<img src="HQD (1).png" class="hqd4to" id="hqd4to"/>
+</div>
+
+<div class="End" id="End">
+  <button class="rebutton" id="rebutton" onclick="re();"></button>
+  <button class="powerbutton" id="powerbutton" onclick="black();"></button>
+  <button class="sharebutton" id="sharebutton" onclick="sharelink();"></button>
+</div>
+
+<div class="black" id="black"></div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
